@@ -8,10 +8,8 @@ public class ageverfication {
         System.out.print("Enter your age: ");
         byte age = sc.nextByte();
         
-        if (age >= 18) {
-            System.out.println("You can drive.");
-        } else {
-            System.out.println("You cannot drive.");
-        }
+        String result = (age >= 18) ? "You can drink (but donot drink)." : "You cannot drink.";
+        
+        System.out.println(result);
     }
 }
