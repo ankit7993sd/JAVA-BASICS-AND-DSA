@@ -12,8 +12,15 @@ public class typecasting {
         if (n % 5 == 0) {
             System.out.println("We are inside the if block");
             System.out.println("Given number is divisible by 5");
+
+        }
+        if (n%2==0) {
+            System.out.println("The Number is Even");
         }
 
-       System.out.println("we are outside the if b");
+        else{
+            System.out.println("we are outside the if b");
+        }
+       
     }
 }
