@@ -9,10 +9,13 @@ public class mobliedata {
 
         System.out.print("Enter your total data plan in GB ");
         float data_plan = sc.nextFloat();
+
          System.out.print("Enter your total data Used in GB ");
         float data_used = sc.nextFloat();
+
         float data_used_percentage = (data_used/data_plan)*100;
         System.out.println("You Have used "+data_used_percentage +"Percent of your data" );
+        
         float data_left = data_plan - data_used;
          System.out.println("You Have  "+data_left +"gb data left" );
         if (data_left<=1){
