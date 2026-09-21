@@ -1,5 +1,5 @@
 public class oddeven {
-    static boolean oddeven(int a ){
+    static boolean oddevens(int a ){
         if (a%2==0)
             return true;
         else
@@ -7,7 +7,7 @@ public class oddeven {
 
     }
     public static void main(String[] args){
-       System.out.println("Is the number odd: " + oddeven(4));
+       System.out.println("Is the number odd ? " + oddevens(4));
     }
     
 }
