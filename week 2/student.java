@@ -4,11 +4,12 @@ public class student {
         }
         static int sum(){
             int a,b;
-            int sum = a+b;
-            return sum;
-            
+            int add = a+b;
+            return add;
+             
         }
-        System.out.println("Sum + "+sum(19,20));
+      
+         System.out.println("Sum + "+sum(19,20));
     
     static void main(String[] args){
         String name = "Ankit";
