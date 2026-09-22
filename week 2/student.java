@@ -2,22 +2,23 @@ public class student {
       static void greet() {
             System.out.println("Hello ");
         }
-        static int sum(){
-            int a,b;
+        static int sum(int a,int b){
+            
             int add = a+b;
             return add;
              
         }
       
-         System.out.println("Sum + "+sum(19,20));
+         
     
     static void main(String[] args){
         String name = "Ankit";
+        System.out.println("Sum = "+sum(19,20));
         int Age = 20;
         String Branch = "BTECH";
-        System.out.print("Hello "+name);
-         System.out.print("Age "+Age);
-          System.out.print("Branch " +Branch);
+        System.out.println("Hello "+name);
+         System.out.println("Age "+Age);
+          System.out.println("Branch " +Branch);
 
         student.greet();
 
