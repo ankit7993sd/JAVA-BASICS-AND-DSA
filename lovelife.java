@@ -98,7 +98,7 @@ public class lovelife {
 
         while (counter < 3) {
 
-            System.out.println("Love Life Compatibility Test "  + (counter + 1) + " =====");
+            System.out.println("Love Life Compatibility Test "  + (counter + 1) + );
 
             System.out.print("Enter patience (1-10): ");
             int patience = sc.nextInt();
