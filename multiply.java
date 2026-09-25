@@ -1,7 +1,7 @@
-
 import java.util.Scanner;
 
-public class array {
+public class multiply {
+    
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -14,11 +14,14 @@ public class array {
             marks[i] = sc.nextInt();
         }
 
-    
-        System.out.print("The elements are: ");
+        int sum = 0;
 
         for (int i = 0; i < 5; i++) {
-            System.out.print(marks[i] + " ");
+            sum = sum + (marks[i] * 5);
+
         }
+        
+            System.out.println("The Total marks is " + sum);
     }
+    
 }
