@@ -12,6 +12,17 @@ public class copyarray {
             number[i] = sc.nextInt();
         }
 
+        int[] brr = new int[5];
+
+        for (int i = 0; i < 5; i++) {
+            brr[i] = number[i];
+        }
+
+        System.out.println("Array B:");
+
+        for (int i = 0; i < 5; i++) {
+            System.out.print(brr[i] + " ");
+        }
 
     }
 }
