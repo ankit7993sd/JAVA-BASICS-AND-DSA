@@ -11,7 +11,7 @@ public class copyarray {
             System.out.print("Enter your Element " + (i + 1) + ": ");
             number[i] = sc.nextInt();
         }
-
+m,,,,
         int[] brr = new int[5];
 
         for (int i = 0; i < 5; i++) {
