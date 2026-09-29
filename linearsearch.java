@@ -7,6 +7,8 @@ public class linearsearch {
 
         int[] arr = new int[5];
         int target =96;
+        int count = 0;
+        
 
         for (int i = 0; i < 5; i++) {
             System.out.print("Enter your Element " + (i + 1) + ": ");
@@ -15,13 +17,14 @@ public class linearsearch {
         
         for(int i =0;i<arr.length; i ++){
             if (arr[i]==target){
-            System.out.println("Element Found at index " + i+1 );
+            System.out.println("Element Found at place " + i+1 );
             break;
-            
-            
             }
+           else{
+            System.out.print("-1");
+           }
         }
-    
-
+       
     }
+    
 }
