@@ -1,8 +1,8 @@
 import java.util.Arrays;
 
-public class sumverification {
+public class retun2number {
 
-    public static boolean twoSum(int[] arr, int target) {
+    public static int[] twoSum(int[] arr, int target) {
 
         Arrays.sort(arr);
 
@@ -14,7 +14,7 @@ public class sumverification {
             int sum = arr[left] + arr[right];
 
             if (sum == target) {
-                return true;
+                return new int[]{arr[left], arr[right]};
             } else if (sum < target) {
                 left++;
             } else {
@@ -22,14 +22,16 @@ public class sumverification {
             }
         }
 
-        return false;
+        return new int[]{};
     }
 
     public static void main(String[] args) {
 
-        int[] arr = {2, 7, 11, 15};
+        int[] arr = {2, 7, 3, 6,89,56,9,9};
         int target = 9;
 
-        System.out.println("The target value in array is "+twoSum(arr, target));
+        int[] result = twoSum(arr, target);
+
+        System.out.println(result[0] + " " + result[1]);
     }
 }
