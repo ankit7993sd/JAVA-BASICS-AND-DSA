@@ -3,7 +3,7 @@ public class palindrome {
 
     public static void main(String[] args) {
 
-        int[] arr = {1, 2, 3, 1, 1};
+        int[] arr = {1, 2, 3, 2, 1};
 
         int left = 0;
         int right = arr.length - 1;
