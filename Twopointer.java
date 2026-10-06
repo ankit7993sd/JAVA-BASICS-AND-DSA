@@ -15,7 +15,6 @@ public class Twopointer {
             }
         }
 
-        System.out.println("Original array: " + Arrays.toString(arr));
-        System.out.println("After removing " + target + ": " + Arrays.toString(result));
+        System.out.println(Arrays.toString(result));
     }
 }
