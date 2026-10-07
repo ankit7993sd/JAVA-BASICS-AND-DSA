@@ -1,18 +1,15 @@
 public class TimeComplexity {
 
-    // O(1) - Constant Time
     static void constantTime(int[] arr) {
         System.out.println("First element: " + arr[0]);
     }
 
-    // O(n) - Linear Time
     static void linearTime(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }
     }
 
-    // O(n²) - Quadratic Time
     static void quadraticTime(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {
@@ -21,7 +18,6 @@ public class TimeComplexity {
         }
     }
 
-    // O(log n) - Logarithmic Time
     static void logarithmicTime(int n) {
         while (n > 1) {
             System.out.println("n = " + n);
