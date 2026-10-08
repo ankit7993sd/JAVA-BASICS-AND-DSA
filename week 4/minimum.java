@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class maximum {
+public class minimum {
 
     public static void main(String[] args) {
 
@@ -8,7 +8,7 @@ public class maximum {
 
         int[][][] arr = new int[2][2][3];
 
-        int max;
+        int min;
 
         System.out.println("Enter 12 numbers:");
 
@@ -20,7 +20,7 @@ public class maximum {
             }
         }
 
-        max = arr[0][0][0];
+        min = arr[0][0][0];
 
         System.out.println("3D Array:");
 
@@ -30,8 +30,8 @@ public class maximum {
 
                     System.out.print(arr[i][j][k] + " ");
 
-                    if (arr[i][j][k] > max) {
-                        max = arr[i][j][k];
+                    if (arr[i][j][k] < min) {
+                        min = arr[i][j][k];
                     }
                 }
 
@@ -41,8 +41,8 @@ public class maximum {
             System.out.println();
         }
 
-        System.out.println("Maximum value = " + max);
+        System.out.println("Minimum = " + min);
 
-        sc.close();
+       
     }
 }
