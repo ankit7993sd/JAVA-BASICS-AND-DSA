@@ -4,5 +4,6 @@ public class substring {
 
         System.out.println(s.substring(10));
         System.out.println(s.substring(3, 7));
+        
     }
 }
