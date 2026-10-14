@@ -6,20 +6,24 @@ public class reverseeachword {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter a sentence:");
+        System.out.print("Enter a sentence:");
         String str = sc.nextLine();
+        String word = "";
+        String result = "";
 
-        String[] words = str.trim().split("\\s+");
-
-
-        for (int i = words.length - 1; i >= 0; i--) {
-            System.out.print(words[i]);
-
-            if (i > 0) {
-                System.out.print(" ");
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) != ' ') {
+                word = word + str.charAt(i);
+            } else {
+                result = word + " " + result;
+                word = "";
             }
         }
 
-        System.out.println();
+        result = word + " " + result;
+
+        System.out.println(result.trim());
+
+        sc.close();
     }
 }
