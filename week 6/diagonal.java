@@ -14,7 +14,7 @@ public class diagonal {
             System.out.print(a[i][i] + " ");
         }
 
-        System.out.println("\nSecondary diagonal:");
+        System.out.println("Secondary diagonal:");
         for (int i = 0; i < n; i++) {
             System.out.print(a[i][n - 1 - i] + " ");
         }
