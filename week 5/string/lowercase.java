@@ -13,7 +13,7 @@ public class lowercase {
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
 
-            if (Character.isLowerCase(ch)) {
+                if (Character.isLowerCase(ch)) {
                 count++;
             }
         }
