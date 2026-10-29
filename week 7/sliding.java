@@ -20,7 +20,6 @@ public class sliding {
     public static void main(String[] args) {
         int[] nums = {1, 12, -5, -6, 50, 3};
         int k = 4;
-
         double result = findMaxAverage(nums, k);
 
         System.out.printf("%.5f%n", result);
